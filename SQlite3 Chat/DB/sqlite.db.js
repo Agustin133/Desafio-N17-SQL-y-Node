@@ -1,12 +1,11 @@
 
 const options = 
     {
-        client: 'mysql',
+        client: 'sqlite3',
         connection: {
-            user : 'root',
-            password : '',
-            database : 'test'
-        }
+            filename: './DB/chat'
+        },
+        useNullAsDefault: true
     }
 
 
